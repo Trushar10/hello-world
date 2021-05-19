@@ -1,5 +1,5 @@
 import React from "react"
-import {ContainerWrapper, FooterWrapper} from "../elements"
+import {ContainerWrapper} from "../elements"
 import {Nav, Footer} from "../components"
 
 export const Container = ({children}) => {
