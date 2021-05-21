@@ -44,19 +44,19 @@ const allPosts = ({pageContext, data}) => {
 
 export default allPosts
 
-export const pageQuery = graphql(`
+export const pageQuery = graphql `
     query AllPostsQuery($skip: Int!, $limit:Int!){
         allMdx(sort: {fields: frontmatter___date, order: DESC}, skip: $skip, limit: $limit) {
             edges {
                 node {
-                frontmatter {
-                    slug
-                    title
-                    date(formatString: "MMMM DD, YYYY")
-                    excerpt
-                }
+                    frontmatter {
+                        slug
+                        title
+                        date(formatString: "MMMM DD, YYYY")
+                        excerpt
+                    }
                 }
             }
         }
     }
-`)
+`
