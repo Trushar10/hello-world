@@ -19,11 +19,12 @@ const notFound =({data}) => {
 }
 
 export default notFound
+
 export const notFoundQuery = graphql`
     query NotFoundQuery {
-        imageSharp (fixed: { original Name: { eq: "sad-cat.jpg"}}){
+        imageSharp (fixed: { originalName: { eq: "sad-cat.jpg"}}){
             fixed{
-                ...GatsbyImageSharoFixed
+                ...GatsbyImageSharpFixed
             }
         }
     }
