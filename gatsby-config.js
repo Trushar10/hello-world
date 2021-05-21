@@ -5,6 +5,15 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "A simple blog built with Gatsby and MDX",
+    url: "https://skillthrive.com",
+    image: "/office.jpg",
+    twitterUsername: "@hunterbecton",
+    author: "Skillthrive",
+  },
+
   /* Your site config here */
   plugins: [
     {
