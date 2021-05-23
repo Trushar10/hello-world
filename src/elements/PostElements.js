@@ -84,14 +84,14 @@ export const PostWrapper = styled.main`
         text-decoration: line-through;
     }
 
-    ${'' /* blockqoute p{
+    blockquote p{
         font-style: italic;
         font-size: 1.5rem;
         line-height: 2.125rem;
         text-align: center;
         max-width: 36rem;
         margin: 3rem auto;
-    } */}
+    }
 
     ul,
     ol{
