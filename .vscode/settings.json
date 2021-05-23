@@ -3,5 +3,7 @@
        "javascript": "javascriptreact"
    },
    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.16-Win32-vc15-x64php.exe",
-   "php.executablePath": "C:\\laragon\\bin\\php\\php-7.4.16-Win32-vc15-x64php.exe"
+  "php.executablePath": "C:\\laragon\\bin\\php\\php-7.4.16-Win32-vc15-x64php.exe",
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": true
  }

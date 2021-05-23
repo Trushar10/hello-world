@@ -26,6 +26,14 @@ export const Seo = ({description, keyword, title, image, url, author}) => {
                                 content:metaTitle,
                             },
                             {
+                                property:`og:author`,
+                                content:metaAuthor,
+                            },
+                            {
+                                property:`og:url`,
+                                content:metaUrl,
+                            },
+                            {
                                 property:`og:description`,
                                 content:metaDescription,
                             },
