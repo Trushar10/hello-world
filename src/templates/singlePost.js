@@ -4,7 +4,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { H1 } from "../elements"
 import { Container, Post, FeatureImage, Seo } from "../components"
 
-const SinglePost = ({ data }) => {
+const singlePost = ({ data }) => {
   const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed
 
   const seoImage = data.mdx.frontmatter.featureImage.publicURL
@@ -25,7 +25,7 @@ const SinglePost = ({ data }) => {
   )
 }
 
-export default SinglePost
+export default singlePost
 
 export const pageQuery = graphql`
   query SinglePostQuery($id: String!) {

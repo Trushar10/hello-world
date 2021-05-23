@@ -84,14 +84,14 @@ export const PostWrapper = styled.main`
         text-decoration: line-through;
     }
 
-    blockqoute p{
+    ${'' /* blockqoute p{
         font-style: italic;
         font-size: 1.5rem;
         line-height: 2.125rem;
         text-align: center;
         max-width: 36rem;
         margin: 3rem auto;
-    }
+    } */}
 
     ul,
     ol{
@@ -108,7 +108,7 @@ export const PostWrapper = styled.main`
         font-size: 1rem;
         line-height: 1.875rem;
         color: ${props => props.theme.colors.light1};
-        background-clor: ${props => props.theme.colors.dark3};
+        background-color: ${props => props.theme.colors.dark3};
         padding: 0 0.3rem;
     }
 
